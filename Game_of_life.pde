@@ -25,14 +25,14 @@ void setup(){
   rows = cells[0].length;
   
   
-  frameRate(10);
-  //saveToFile(cells);
+  frameRate(6);
+  saveToFile(cells);
   //println(cols,rows);
 }
 
 void draw(){
   background(0);
-  stroke(255,0,0);
+  stroke(0,0,0);
   strokeWeight(1);
   for(int i=0;i<cols;i++){
     for(int j=0;j<rows;j++){
